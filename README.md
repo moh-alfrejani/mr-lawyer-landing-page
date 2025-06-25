@@ -20,21 +20,21 @@ A sleek and modern landing page for a law professional. Built with pure **HTML &
 ## 🗂️ Structure
 mr-lawyer/
 mr-lawyer/
-├── index.html
-├── README.md
-├── src/
-    ├── css/
-    │   ├── style.css
-    │   └── all.min.css
-    ├── js/
-    │   └── script.js
-    ├── img/
-        ├── 1.png
-    │   └── top.png
-    └── fontawesome/
-        ├── EBGaramond-Regular.ttf
-        ├── EBGaramond-Bold.ttf
-        └── EBGaramond-SemiBold.ttf
+├── index.html<br>
+├── README.md<br>
+├── src/<br>
+    &nbsp;├── css/<br>
+    &nbsp;│   &nbsp;├── style.css<br>
+    │&nbsp;   &nbsp;└── all.min.css<br>
+    &nbsp;├── js/<br>
+    &nbsp;│   &nbsp;└── script.js<br>
+    &nbsp;├── img/<br>
+        &nbsp;├── 1.png<br>
+    &nbsp;│   &nbsp;└── top.png<br>
+    &nbsp;└── fontawesome/<br>
+        &nbsp;├── EBGaramond-Regular.ttf<br>
+        &nbsp;├── EBGaramond-Bold.ttf<br>
+        &nbsp;└── EBGaramond-SemiBold.ttf<br>
 
 
 ## 🚀 Tech Used
