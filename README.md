@@ -17,24 +17,23 @@ A sleek and modern landing page for a law professional. Built with pure **HTML &
 ## 🌐 Preview
 [Live Demo on GitHub Pages](https://moh-alfrejani.github.io/mr-lawyer-landing-page/)
 
-## 🗂️ Structure
-mr-lawyer/
-mr-lawyer/
-├── index.html<br>
-├── README.md<br>
-├── src/<br>
-    &nbsp;├── css/<br>
-    &nbsp;│   &nbsp;├── style.css<br>
-    │&nbsp;   &nbsp;└── all.min.css<br>
-    &nbsp;├── js/<br>
-    &nbsp;│   &nbsp;└── script.js<br>
-    &nbsp;├── img/<br>
-        &nbsp;├── 1.png<br>
-    &nbsp;│   &nbsp;└── top.png<br>
-    &nbsp;└── fontawesome/<br>
-        &nbsp;├── EBGaramond-Regular.ttf<br>
-        &nbsp;├── EBGaramond-Bold.ttf<br>
-        &nbsp;└── EBGaramond-SemiBold.ttf<br>
+## 🗂️ Structure<br>
+mr-lawyer/<br>
+&nbsp;&nbsp;├── index.html<br>
+&nbsp;&nbsp;├── README.md<br>
+&nbsp;&nbsp;├── src/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── css/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;├── style.css<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;└── all.min.css<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── js/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;└── script.js<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── img/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;├── 1.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;└── top.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── fontawesome/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── EBGaramond-Regular.ttf<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── EBGaramond-Bold.ttf<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── EBGaramond-SemiBold.ttf<br>
 
 
 ## 🚀 Tech Used
