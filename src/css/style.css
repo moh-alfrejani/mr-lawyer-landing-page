@@ -1,0 +1,225 @@
+/* Regular */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('../fonts/EBGaramond-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Bold */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('../fonts/EBGaramond-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Bolder (سنستخدم SemiBold لهذا الوزن) */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('../fonts/EBGaramond-SemiBold.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'EB Garamond', serif;
+}
+body{
+    background-color: #000;
+    width: 100vw;    /* صححت من 100fr إلى 100vw */
+    height: 100vh;   /* صححت من 100fr إلى 100vh */
+    color: #fff;
+    display: flex;
+    flex-direction: column;    /* <-- أضف هذا */
+    justify-content: flex-start; /* يبدأ من الأعلى */
+    align-items: center;         /* لتوسيط العرض */
+    }
+a{
+    text-decoration: none;
+    color:#fff;
+}
+button{
+    font-size: 21px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+b{
+    color: #fbff00;
+}
+
+/*======Header======*/
+header{
+    width: 85%;
+    height: 10%;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between; /* يوزع بين الناف و الأيقونات */
+    align-items: center; /* لمحاذاة عمودية وسط */
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav a{
+    transition: color 0.2s ease;
+}
+nav a:hover{
+    color: yellow;
+}
+nav .home{
+    color: yellow;
+    transition: 2s ease;
+}
+nav .home:hover{
+    color: #fff;
+}
+.media_icons {
+    display: flex;
+    gap: 20px;
+}
+.media_icons a i{
+    font-size: 22px;
+    color: #fdff6a;
+    transition: 3px;
+    transition: color 0.2s ease;
+    transition: 0.5s;
+}
+.media_icons a i:hover{
+    color: gold;
+    transform: scale(1.3);
+}
+
+
+/*======Main======*/
+main{
+    width:85%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between; /* يوزع بين الناف و الأيقونات */
+    align-items: center; /* لمحاذاة عمودية وسط */
+    padding: 0px 80px;
+}
+main section{
+    width: 50%;
+}
+main h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color:  gold;
+    padding: 5px;
+    margin: 5px;
+    border-left:5px solid #f0f0f0;
+    transition: 2s;
+}
+main h1:hover{
+    border-left:5px solid #fbff00;
+    color:#fff;
+}
+main p{
+    font-size: 18px;
+    margin: 10px;
+    color:#fdf9f9;
+}
+main button{
+    border: noun;
+    cursor: pointer;
+    background-color: #dacd18;
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    margin: 5px 10px;
+    transition: 1s;
+    box-shadow: 0 8px 20px rgba(51, 47, 47, 0.712);
+}
+main button:hover{
+    background-color: rgb(250, 228, 106);
+    transform: scale(1.1);
+}
+main aside{
+    width:30%;
+    background-color: gold;
+    border-radius: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: 2s;
+    box-shadow: 0 8px 20px hsla(57, 40%, 18%, 0.699);
+}
+main aside:hover{
+    background-color: rgb(240, 184, 44);
+    border-radius: 0 50px 0 50px;
+    box-shadow: 0 8px 20px rgba(32, 32, 32, 0.616);
+}
+main aside img{
+    width: 100%;
+    border-radius: 50%;
+    transition: 2s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.541);
+}
+main aside img:hover{
+    transform: scale(1.1);
+}
+
+
+/*======Footer======*/
+footer{
+    width: 85%;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+}
+footer h1{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0 15px 35px;
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+    color:#f2f2f2;
+    border-left: 3px solid #fbff00;
+    transition: 2s;
+}
+footer h1:hover{
+    color:gold;
+    border-left-color: #fff;
+}
+footer .law-partners{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.law-partners a button{
+    background: none;
+    border: 2px solid #333;
+    color: #f0f0f0;
+    box-shadow: 0 4px 12px rgba(44, 43, 43, 0.568); /* ظل خفيف من كل الجهات */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.law-partners a button:hover{
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(73, 71, 71, 0.753);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+.law-partners i{
+    font-size: 25px;
+    color: #fff;
+}
+.law-partners i:hover{
+    color: #fbff00;
+}
+
+
+
+
+
+
+
+
