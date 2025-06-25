@@ -17,9 +17,6 @@ A sleek and modern landing page for a law professional. Built with pure **HTML &
 ## 🌐 Preview
 [Live Demo on GitHub Pages](https://moh-alfrejani.github.io/mr-lawyer-landing-page/)
 
-## Video
-![Video of Mr. Lawyer homepage](src/vid/1.mp4)
-
 ## 🗂️ Structure<br>
 mr-lawyer/<br>
 &nbsp;&nbsp;├── index.html<br>
